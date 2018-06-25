@@ -1,21 +1,12 @@
 {
   "name": "dreamhouse-1",
-  "scripts": {
-  },
-  "env": {
-  },
-  "formation": {
-    "web": {
-      "quantity": 1
-    }
-  },
+  "description": "DreamHouse Web App",
+  "keywords": [
+    "app-cloud"
+  ],
+  "repository": "https://github.com/dreamhouseapp/dreamhouse-1",
   "addons": [
     "herokuconnect",
     "heroku-postgresql"
-  ],
-  "buildpacks": [
-    {
-      "url": "heroku/nodejs"
-    }
   ]
 }
